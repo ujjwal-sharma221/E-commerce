@@ -1,0 +1,101 @@
+body {
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+.home {
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin: 10px 0 100px 100px;
+}
+.home a {
+  color: #000000;
+}
+.home p {
+  margin: 0;
+  font-size: 1rem;
+  display: inline;
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.register p {
+  margin-left: 100px;
+  font-size: 1.5rem;
+}
+.register form {
+  margin-left: 90px;
+  font-size: 0.9rem;
+  color: grey;
+}
+.register input {
+  border: 1px solid gray;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: grey;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 12px;
+  margin-right: 17px;
+  margin-bottom: 5px;
+}
+.register form label {
+  color: gray;
+  margin: 10px 17px 5px 12px;
+}
+#email {
+  margin-left: 40px;
+}
+#pass {
+  margin-left: 20.5px;
+}
+#name-f {
+  margin-left: 12px;
+}
+#name-l {
+  margin-left: 50px;
+}
+#add {
+  margin-left: 28px;
+}
+#pin {
+  margin-left: 65px;
+}
+#city {
+  margin-left: 55px;
+}
+#st {
+  margin-left: 45px;
+}
+#check {
+  margin-left: -150px;
+}
+.register button {
+  width: 300px;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  text-align: center;
+  letter-spacing: 1.5px;
+  font-family: "Roboto", sans-serif;
+  height: 50px;
+  text-transform: uppercase;
+  background-color: black;
+  color: whitesmoke;
+  border: 1px solid black;
+  transition: all 0.2s;
+}
+.register button:hover {
+  background-color: whitesmoke;
+  color: #000000;
+}
+.home p:hover {
+  text-decoration: underline;
+}

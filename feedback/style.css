@@ -1,0 +1,60 @@
+body {
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+.home {
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin: 10px 0 100px 100px;
+}
+.home a {
+  color: #000000;
+}
+.home p {
+  margin: 0;
+  font-size: 1rem;
+  display: inline;
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid gray;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+.container label {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,174 @@
+body {
+  font-family: "Rubik", sans-serif;
+  color: #171313;
+}
+a {
+  text-decoration: none;
+}
+.first-nav {
+  width: 100%;
+  height: 100vh;
+}
+.home {
+  display: flex;
+  border: 0.5px solid gray;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.right-wing {
+  display: flex;
+  flex: 1;
+}
+.right-wing {
+  align-items: center;
+  justify-content: end;
+}
+.right-wing h1 {
+  margin: 15px;
+}
+.home h1 {
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.right-wing h1 {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.image img {
+  width: 100%;
+  height: 700px;
+}
+.image p {
+  font-size: 2rem;
+  margin-left: 250px;
+}
+.image span {
+  font-size: 0.9rem;
+  padding: 5px;
+  color: white;
+  background-color: black;
+  border-radius: 25px;
+}
+.image h3 {
+  font-size: 1rem;
+  color: grey;
+  margin-left: 250px;
+  transform: translateY(-15px);
+}
+#new {
+  background-color: white;
+  margin-top: 200px;
+}
+.wrapper {
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+  height: 87.5vh;
+}
+#new p {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+.left img {
+  height: 650px;
+  margin: 10px;
+  margin-top: 0;
+  border-radius: 25px;
+}
+.right img {
+  height: 320px;
+  margin: 10px;
+  margin-top: 0;
+  border-radius: 25px;
+}
+
+#new span {
+  font-size: 1rem;
+  margin-left: 5px;
+  text-transform: capitalize;
+}
+#new span a {
+  color: #323b58;
+}
+
+#new span a:hover {
+  letter-spacing: 0.5px;
+  color: #98c1d9;
+}
+
+.wrapper img:hover {
+  transform: translateY(-10px);
+  border: 1px solid black;
+}
+.Computers h1 {
+  text-transform: capitalize;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+.Computers span {
+  font-size: 1rem;
+  margin-left: 5px;
+  text-transform: capitalize;
+}
+.Computers span:hover {
+  letter-spacing: 0.5px;
+  color: #98c1d9;
+  cursor: pointer;
+}
+.image1 {
+  display: flex;
+}
+
+.image1 img {
+  width: 1000px;
+  height: 600px;
+  border-radius: 25px;
+}
+.right-text {
+  margin-left: 5px;
+  border-radius: 25px;
+}
+.right-text p {
+  color: black;
+  font-size: 1.5rem;
+  padding: 5px;
+  letter-spacing: 1px;
+}
+.right-text span {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.image2 {
+  display: flex;
+  margin-top: 10px;
+}
+.image2 img {
+  width: 900px;
+  height: 600px;
+  margin-left: 10px;
+  border-radius: 25px;
+}
+.left-text {
+  border-radius: 25px;
+  color: black;
+  font-size: 1.5rem;
+  padding: 5px;
+  letter-spacing: 1px;
+}
+.left-text span {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.first-nav a {
+  color: black;
+}
+.feed {
+  text-align: right;
+}
+.feed a {
+}
